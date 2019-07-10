@@ -75,8 +75,9 @@ def communities_greedy_modularity(G,f):
     The communitys are detected using greedy modularity.
     G: a networkx graph.
     f: a pandas dataframe.
+
+    It works with networkx vesion: '2.4rc1.dev_20190610203526'
     """
-    # funciona con la version de '2.4rc1.dev_20190610203526' de netwrokx (no con la 2.1)
     if not(set(f.name) == set(G.nodes()) and len(f.name) == len(G.nodes())):
         raise ValueError('The number of nodes and the length of the datadrame should be the same.')   
     communities_dic = nx.algorithms.community.greedy_modularity_communities(G)
@@ -90,8 +91,9 @@ def communities_label_propagation(G,f):
     The communitys are detected using glabel propagation.
     G: a networkx graph.
     f: a pandas dataframe.
+
+    It works with networkx vesion: '2.4rc1.dev_20190610203526'
     """
-    # funciona con la version de '2.4rc1.dev_20190610203526' de netwrokx (no con la 2.1)
     if not(set(f.name) == set(G.nodes()) and len(f.name) == len(G.nodes())):
         raise ValueError('The number of nodes and the length of the datadrame should be the same.')   
     communities_gen = nx.algorithms.community.label_propagation_communities(G)
@@ -106,7 +108,7 @@ def mean_neighbors(G,f,column,n=1):
     G: a networkx graph.
     f: a pandas dataframe.
     column: the column to which the mean is applied.
-    n: no se como decirlo: seria a primeros vecinos o segundos vecinos.
+    n: neighbourhood order.
     """
     if not(set(f.name) == set(G.nodes()) and len(f.name) == len(G.nodes())):
         raise ValueError('The number of nodes and the length of the datadrame should be the same.')   
@@ -126,7 +128,7 @@ def std_neighbors(G,f,column,n=1):
     G: a networkx graph.
     f: a pandas dataframe.
     column: the column to which the mean is applied.
-    n: no se como decirlo: seria a primeros vecinos o segundos vecinos.
+    n: neighbourhood order.
     """
     if not(set(f.name) == set(G.nodes()) and len(f.name) == len(G.nodes())):
         raise ValueError('The number of nodes and the length of the datadrame should be the same.')   
