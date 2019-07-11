@@ -14,15 +14,17 @@ python setup.py install
 * scickit learn
 * networkx (>2.4)
 
-## Simple example
+## Examples 
 
-Adding new columns to the dataset.
+1) A simple graph machine learning example using sklearn and scikit-graph's transformers.
+
+2) Adding new columns to the dataset.
 
 ```python
+>>> import scikitgraph as sg
 >>> import pandas as pd
 >>> import networkx as nx
 >>> import numpy as np
->>> import scikitgraph as sg
 
 >>> G = nx.karate_club_graph() # Importes the graph
 >>> f = pd.DataFrame(data = {'name': range(34),'col1': np.random.rand(34), 'col2': np.random.rand(34)}) # Creates random features for the nodes
