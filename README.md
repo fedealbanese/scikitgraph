@@ -1,5 +1,5 @@
 # ScikitGraph
-A graph based machine learning library for python. 
+A graph based machine learning library for python.
 
 
 ## Installation
@@ -15,7 +15,7 @@ python setup.py install
 * networkx (>2.4)
 
 
-## Examples 
+## Basic Usage
 
 ##### Example 1:
 
