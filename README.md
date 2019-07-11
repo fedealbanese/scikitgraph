@@ -16,9 +16,11 @@ python setup.py install
 
 ## Examples 
 
-1) A simple graph machine learning example using sklearn and scikit-graph's transformers.
+Example 1:
+A simple graph machine learning example using sklearn and scikit-graph's transformers. [Tutorial](https://github.com/fedealbanese/scikitgraph/blob/master/Examples/ScikitGraph_Tutorial.ipynb)
 
-2) Adding new columns to the dataset.
+Example 2:
+Adding new columns to the dataset.
 
 ```python
 >>> import scikitgraph as sg
