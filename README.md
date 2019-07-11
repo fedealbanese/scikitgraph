@@ -31,14 +31,14 @@ Adding new columns to the dataset.
 >>> import networkx as nx
 >>> import numpy as np
 
->>> G = nx.karate_club_graph() # Importes the graph
+>>> G = nx.karate_club_graph() # Imports the graph
 >>> f = pd.DataFrame(data = {'name': range(34),'col1': np.random.rand(34), 'col2': np.random.rand(34)}) # Creates random features for the nodes
 >>> f.columns
 Index(['name', 'col1', 'col2'], dtype='object')
 
->>> f = sg.betweenness(G,f) #Adds a column to the dataframe with the betweenness centrality of the nodes.
->>> f = sg.pagerank(G,f) #Adds a column to the dataframe with the PageRank of the nodes.
->>> f = sg.node_embeddings(G,f,20, walk_length=10, num_walks=50) #Adds columns to the dataframe with the embeddings of the nodes.
+>>> f = sg.betweenness(G,f) # Adds a column to the dataframe with the betweenness centrality of the nodes.
+>>> f = sg.pagerank(G,f) # Adds a column to the dataframe with the PageRank of the nodes.
+>>> f = sg.node_embeddings(G,f,20, walk_length=10, num_walks=50) # Adds columns to the dataframe with the embeddings of the nodes.
 >>> f.columns
 Index(['name', 'col1', 'col2', 'betweenness', 'pagerank', 'node_embeddings_0',
        'node_embeddings_1', 'node_embeddings_2', 'node_embeddings_3',
