@@ -14,12 +14,15 @@ python setup.py install
 * scickit learn
 * networkx (>2.4)
 
+
 ## Examples 
 
-Example 1:
-A simple graph machine learning example using sklearn and scikit-graph's transformers. [Tutorial](https://github.com/fedealbanese/scikitgraph/blob/master/Examples/ScikitGraph_Tutorial.ipynb)
+##### Example 1:
 
-Example 2:
+A simple graph machine learning example using sklearn and scikit-graph's transformers([Tutorial](https://github.com/fedealbanese/scikitgraph/blob/master/Examples/ScikitGraph_Tutorial.ipynb)).
+
+##### Example 2:
+
 Adding new columns to the dataset.
 
 ```python
@@ -51,6 +54,7 @@ Index(['name', 'col1', 'col2', 'betweenness', 'pagerank', 'node_embeddings_0',
 ## Contributing
 
 Pull requests for new features, bug fixes, and suggestions are welcome!
+
 
 ## License
 
