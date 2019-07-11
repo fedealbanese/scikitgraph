@@ -1,5 +1,5 @@
-# scikitgraph
-A graph based machine learning library for python.
+# ScikitGraph
+A graph based machine learning library for python. 
 
 
 ## Installation
