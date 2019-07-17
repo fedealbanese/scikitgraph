@@ -12,7 +12,7 @@ python setup.py install
 * numpy
 * pandas
 * scickit learn
-* networkx (>2.4)
+* networkx (>=2.4)
 
 
 ## Basic Usage
