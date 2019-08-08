@@ -19,7 +19,7 @@ python setup.py install
 
 ##### Example 1:
 
-A simple graph machine learning example using sklearn and scikit-graph's transformers([Tutorial](https://github.com/fedealbanese/scikitgraph/blob/master/Examples/ScikitGraph_Tutorial.ipynb)).
+A simple graph machine learning example using sklearn and scikit-graph's transformers ([Tutorial](https://github.com/fedealbanese/scikitgraph/blob/master/Examples/ScikitGraph_Tutorial.ipynb)).
 
 ##### Example 2:
 
