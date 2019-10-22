@@ -55,7 +55,8 @@ Index(['name', 'col1', 'col2', 'betweenness', 'pagerank', 'node_embeddings_0',
 
 Pull requests for new features, bug fixes, and suggestions are welcome!
 
-
+<!--
 ## License
 
 [MIT](https://github.com/fedealbanese/scikitgraph/blob/master/LICENSE)
+-->
