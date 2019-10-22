@@ -1,13 +1,13 @@
 # ScikitGraph
 A graph based machine learning library for python.
 
-
- <> (## Installation)
+<!--
+## Installation
 
 ```bash
 python setup.py install
 ```
-
+-->
 ## Requirements
 * numpy
 * pandas
