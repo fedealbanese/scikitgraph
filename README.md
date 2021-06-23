@@ -1,5 +1,5 @@
 # ScikitGraph
-A graph based machine learning library for python.
+An open source graph based machine learning library for python.
 
 <!--
 ## Installation
